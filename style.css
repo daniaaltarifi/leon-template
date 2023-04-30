@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://elzerowebschool.github.io/HTML_And_CSS_Template_One/images/landing.jpg");
+    background-size: cover;
+    /* position: relative; */
+    height: calc(100vh - 64px);
+background-repeat: no-repeat;}
+    
+.navbar{
+    background-color:#ffffff;
+    height: 40px;
+}
+.fa-solid{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.green-title{
+    color: #10cab7;
+    font-size:60px;
+    font-weight: bold;
+}
+.brief{
+font-size: 19px;
+}
+.product{
+    justify-content: space-between;
+    margin-top: 21%;
+    padding-top:3% ;
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 50%;
+}
+.icon{
+    color: #10cab7;
+}
